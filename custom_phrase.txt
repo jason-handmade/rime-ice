@@ -62,3 +62,11 @@ gone	gone
 Go程	gocheng
 code	code
 SOHO	soho
+jasonil_lu@gmail.com	myem	1
+7aa0b657-b1bd-40dd-a941-1d6a5cfe5afa	jatc	1
+564408fa-2619-419d-9a52-436c7b36bda6	jawsll	1
+abba439f-7ee8-477c-b6f0-75c5d9b50e60	jawsnm	1
+a69a139f-99a1-4d75-a5fc-826a3072b50f	jasp	1
+05f48be6-1b39-4f8c-8bf5-5fae9d931597	japrod	1
+cd ~/streaming-tools	stto	1
+
