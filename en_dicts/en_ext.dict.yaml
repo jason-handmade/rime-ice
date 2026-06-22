@@ -2572,3 +2572,17 @@ Feinberg	Feinberg
 Deadpool	Deadpool
 crDroid	crDroid
 Windsurf	Windsurf
+cd	cd
+pwd	pwd
+ls	ls
+mkdir	mkdir
+rm	rm
+cp	cp
+mv	mv
+chmod	chmod
+chown	chown
+awk	awk
+sed	sed
+sudo	sudo
+vim	vim
+nvim	nvim

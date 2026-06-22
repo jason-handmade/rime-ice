@@ -70,3 +70,21 @@ a69a139f-99a1-4d75-a5fc-826a3072b50f	jasp	1
 05f48be6-1b39-4f8c-8bf5-5fae9d931597	japrod	1
 cd ~/streaming-tools	stto	1
 
+
+# Terminal Commands
+cd	cd	1
+pwd	pwd	1
+ls	ls	1
+mkdir	mkdir	1
+rm	rm	1
+cp	cp	1
+mv	mv	1
+chmod	chmod	1
+chown	chown	1
+awk	awk	1
+sed	sed	1
+sudo	sudo	1
+vim	vim	1
+nvim	nvim	1
+c++	c++	2
+C++	c++	1

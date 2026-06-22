@@ -43,7 +43,7 @@ engine:
     - uniquifier
 
 speller:
-  alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA
+  alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA+
   delimiter: " '"
   algebra:
     # 如果要在补丁中（melt_eng.custom.yaml）修改 algebra 以适配双拼，请参考 [常见问题](https://github.com/iDvel/rime-ice/issues/133)
@@ -115,7 +115,7 @@ algebra_common:
   - derive/[-]//
   - derive/[_]//
   # 派生无任何非字母数字字符的拼写
-  - derive/[^a-zA-Z0-9]//
+  - derive/[^a-zA-Z0-9\+]//
   # 禁用非英文、数字开头的编码
   - erase/^[^a-zA-Z0-9].+$/
   # 全小写
