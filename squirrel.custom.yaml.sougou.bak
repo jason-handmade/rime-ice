@@ -1,0 +1,50 @@
+patch:
+  # 關聯外觀皮膚為 搜狗經典版
+  style/color_scheme: sogou_style
+  style/color_scheme_dark: sogou_style
+
+  # 定義自定義外觀皮膚庫
+  preset_color_schemes:
+    # ─── 方案：搜狗拼音經典版 (Sogou Classic) ───
+    sogou_style:
+      name: "搜狗拼音經典 / Sogou Classic"
+      author: "opencode"
+      
+      # 字體與大小（完美適配螢幕，字體清晰）
+      font_face: "PingFangSC-Regular"      # 蘋方中文字型
+      font_point: 16                      # 搜狗經典字級 (16pt)
+      label_font_face: "Helvetica"        # 序號英文 Helvetica
+      label_font_point: 12                # 序號大小
+      comment_font_face: "PingFangSC-Regular"
+      comment_font_point: 13              # 拼音提示大小
+      
+      # 佈局與顯示
+      candidate_list_layout: linear        # 水平橫排
+      inline_preedit: true                 # 拼音在編輯框內顯示，候選框極簡乾淨
+      translucency: false                  # 搜狗為純白實色，關閉毛玻璃
+      mutual_exclusive: false
+      
+      # 邊距與圓角（緊湊精緻的搜狗比例）
+      border_height: 7                    # 緊湊的上下邊距
+      border_width: 10                     # 緊湊的左右邊距
+      line_spacing: 12                     # 字與字間距
+      corner_radius: 5                     # 搜狗標誌性小圓角 (5px)
+      hilited_corner_radius: 0             # 設為 0 以隱藏選中框
+      shadow_size: 4                       # 輕微窗口陰影
+      
+      # 顏色調配 (ABGR 格式：0x + 2位透明度 + 6位藍綠紅 BGR 色值)
+      back_color: 0xFFFFFFFF               # 純白底色
+      border_color: 0xFFE2E2E2             # 搜狗淺灰色外邊框
+      border_width: 1                      # 邊框厚度 1px
+      
+      # 隱藏選中背景色：將其設為與背景純白色一致，消除灰色背景滑塊！
+      hilited_candidate_back_color: 0xFFFFFFFF
+      
+      # 字體顏色設定
+      candidate_text_color: 0xFF333333     # 未選中候選字：精緻深灰
+      label_color: 0xFF999999              # 未選中序號：灰色
+      comment_text_color: 0xFF999999       # 註釋顏色
+      
+      # 選中項顏色：變為經典的「搜狗橘橙色」 (RGB #FF601C -> BGR 0x1C60FF)
+      hilited_candidate_text_color: 0xFF1C60FF   # 選中候選字：搜狗橘
+      hilited_candidate_label_color: 0xFF1C60FF  # 選中序號：搜狗橘

@@ -1,0 +1,71 @@
+patch:
+  # 關聯您喜愛的外觀皮膚（預設亮色模式為 Spotlight 亮色版，暗黑模式為 Raycast 暗黑版）
+  style/color_scheme: spotlight_light
+  style/color_scheme_dark: raycast_dark
+
+  # 定義自定義現代外觀皮膚庫
+  preset_color_schemes:
+    # ─── 方案 A：Spotlight 極簡純白磨砂 ───
+    spotlight_light:
+      name: "Spotlight Light"
+      author: "opencode"
+      
+      # 字體與大小（使用 macOS 系統原生字體）
+      font_face: ".AppleSystemUIFont"
+      font_point: 16
+      label_font_face: ".AppleSystemUIFont"
+      label_font_point: 11
+      comment_font_face: ".AppleSystemUIFont"
+      comment_font_point: 14
+      
+      # 佈局與顯示
+      candidate_list_layout: linear        # 水平橫排
+      inline_preedit: true                 # 拼音顯示在輸入框內，候選框極簡乾淨
+      translucency: true                   # 開啟 macOS 系統級原生磨砂毛玻璃
+      mutual_exclusive: false              # 允許透明色彩疊加
+      
+      # 邊距與圓角（現代大氣圓角）
+      border_height: 12                    # 上下外邊距
+      border_width: 14                     # 左右外邊距
+      line_spacing: 12                     # 字與字間距
+      corner_radius: 12                    # 候選窗圓角 (Spotlight 風格)
+      hilited_corner_radius: 8             # 選中項圓角 (Raycast 風格)
+      shadow_size: 10                      # 窗口陰影
+      
+      # 顏色調配 (ABGR 格式：0x + 2位透明度 + 6位藍綠紅BGR色值)
+      back_color: 0xCCF4F4F4               # 窗口底色：80%透明度的極致純白磨砂
+      hilited_candidate_back_color: 0xFFE0E0E2 # 選中項背景：柔和灰色高亮
+      candidate_text_color: 0xFF333333     # 未選中字體顏色：深灰
+      hilited_candidate_text_color: 0xFF000000 # 選中字體顏色：純黑
+      label_color: 0xFF999999              # 未選中數字顏色：中灰
+      hilited_candidate_label_color: 0xFF666666 # 選中數字顏色：深灰
+      comment_text_color: 0xFF888888       # 註釋顏色
+
+    # ─── 方案 B：Raycast 經典暗黑磨砂 ───
+    raycast_dark:
+      name: "Raycast Dark"
+      author: "opencode"
+      font_face: ".AppleSystemUIFont"
+      font_point: 16
+      label_font_face: ".AppleSystemUIFont"
+      label_font_point: 11
+      comment_font_face: ".AppleSystemUIFont"
+      comment_font_point: 14
+      candidate_list_layout: linear
+      inline_preedit: true
+      translucency: true
+      mutual_exclusive: false
+      border_height: 12
+      border_width: 14
+      line_spacing: 12
+      corner_radius: 12
+      hilited_corner_radius: 8
+      shadow_size: 10
+      
+      back_color: 0xDD1E1E1E               # 窗口底色：86%透明度的極暗灰（Raycast 標誌底色）
+      hilited_candidate_back_color: 0xFF3D3D3D # 選中項背景：不透明中灰高亮
+      candidate_text_color: 0xFFD4D4D4     # 未選中字體顏色：優雅淺灰
+      hilited_candidate_text_color: 0xFFFFFFFF # 選中字體顏色：極致純白
+      label_color: 0xFF707070              # 未選中數字顏色：暗灰
+      hilited_candidate_label_color: 0xFF9E9E9E # 選中數字顏色：亮灰
+      comment_text_color: 0xFF808080       # 註釋/拼音提示顏色

@@ -8,3 +8,8 @@ patch:
   # @2 代表 switches 列表里的第 3 项 (traditionalization)
   # reset: 1 代表将其默认状态设为第 2 个选项（即 繁）
   "switches/@2/reset": 1
+
+  # 设置繁体模式为「台湾繁体」（Taiwan Standard Traditional）
+  # s2tw.json: 只把字轉換成台灣標準寫法。
+  # 例如：打 cai 輸出「才」而非「纔」；打 li 輸出「裡」而非「裏」。
+  "traditionalize/opencc_config": s2tw.json 
