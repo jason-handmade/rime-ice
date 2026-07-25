@@ -21,6 +21,14 @@
 #
 # version: "2024-03-12"
 #
+# ==========================================
+# [备忘 / Reminder]
+# 1. 修改词库 (cn_dicts/, en_dicts/ 等) 后，运行：
+#    make -C others/script/ build
+# 2. 修改配置 (*.yaml, lua/ 等) 后，运行：
+#    make -C others/script/ lint
+# ==========================================
+#
 # 此行之后不能写注释
 
 噷	hm
@@ -62,12 +70,16 @@ gone	gone
 Go程	gocheng
 code	code
 SOHO	soho
-jasonil_lu@gmail.com	myem	1
+jasonil_lu@17.media	myem	1
 7aa0b657-b1bd-40dd-a941-1d6a5cfe5afa	jatc	1
 564408fa-2619-419d-9a52-436c7b36bda6	jawsll	1
 abba439f-7ee8-477c-b6f0-75c5d9b50e60	jawsnm	1
 a69a139f-99a1-4d75-a5fc-826a3072b50f	jasp	1
 05f48be6-1b39-4f8c-8bf5-5fae9d931597	japrod	1
+!live log-detail	lld	1
+!live log 20	lls	1
+!log stream	los	1
+!user q	usq	1
 cd ~/streaming-tools	stto	1
 
 
@@ -88,3 +100,7 @@ vim	vim	1
 nvim	nvim	1
 c++	c++	2
 C++	c++	1
+opencode	ope	1
+git	gi	1
+pull	pu	1
+open -a warp .	opw	1
