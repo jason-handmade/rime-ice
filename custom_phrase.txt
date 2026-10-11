@@ -76,12 +76,14 @@ jasonil_lu@17.media	myem	1
 abba439f-7ee8-477c-b6f0-75c5d9b50e60	jawsnm	1
 a69a139f-99a1-4d75-a5fc-826a3072b50f	jasp	1
 05f48be6-1b39-4f8c-8bf5-5fae9d931597	japrod	1
-!live log-detail	lld	1
-!live log 20	lls	1
-!log stream	los	1
-!user q	usq	1
+!live log-detail 	lld	1
+!live log 20 	lls	1
+!log stream 	los	1
+!stt stream first 60 	lss	1
+!user q 	usq	1
 cd ~/streaming-tools	stto	1
-
+cd ~/tempDownload/hammerspoon-pg/	cdth	1
+ffplay -referer "https://17.live/" 	ffre	1
 
 # Terminal Commands
 cd	cd	1
@@ -104,3 +106,7 @@ opencode	ope	1
 git	gi	1
 pull	pu	1
 open -a warp .	opw	1
+=GOOGLETRANSLATE(D2, "ja", "zh")	gts	1
+
+# 詞組
+銷毀	xiaohui	1
